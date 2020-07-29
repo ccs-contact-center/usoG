@@ -48,7 +48,7 @@ class Inicio extends Component {
             <TemaDosView />
           ) : this.state.index === 3 ? (
             <TemaTresView />
-            ) : this.state.index === 4 ? (
+          ) : this.state.index === 4 ? (
             <Actividad1View />
           ) : this.state.index === 5 ? (
             <Actividad2View />
