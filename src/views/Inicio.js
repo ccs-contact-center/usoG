@@ -48,21 +48,17 @@ class Inicio extends Component {
             <TemaDosView />
           ) : this.state.index === 3 ? (
             <TemaTresView />
-          ) : this.state.index === 4 ? (
-            <TemaCuatroView />
-          ) : this.state.index === 5 ? (
-            <TemaCincoView />
-          ) : this.state.index === 6 ? (
+            ) : this.state.index === 4 ? (
             <Actividad1View />
-          ) : this.state.index === 7 ? (
+          ) : this.state.index === 5 ? (
             <Actividad2View />
-          ) : this.state.index === 8 ? (
+          ) : this.state.index === 6 ? (
             <Actividad3View />
-          ) : this.state.index === 9 ? (
+          ) : this.state.index === 7 ? (
             <DespedidaView />
-          ) : this.state.index === 10 ? (
+          ) : this.state.index === 8 ? (
             <Despedida2View />
-          ) : this.state.index === 11 ? (
+          ) : this.state.index === 9 ? (
             <Formulario2View />
           ) : null}
           <br />
